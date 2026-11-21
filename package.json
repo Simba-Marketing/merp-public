@@ -1,0 +1,9 @@
+{
+  "name": "merp-showcase",
+  "private": true,
+  "description": "Curated modules and tests from MERP, an ERP for marketing agencies.",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node tests/offertetaaltest.js && node tests/campagnetest.js && node tests/campagnevergelijktest.js && node tests/leadkaarttest.js"
+  }
+}
